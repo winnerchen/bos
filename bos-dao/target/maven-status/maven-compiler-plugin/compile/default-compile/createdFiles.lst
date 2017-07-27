@@ -1,0 +1,5 @@
+cn\itcast\bos\dao\StandardDao.class
+cn\itcast\bos\dao\RegionDao.class
+cn\itcast\bos\dao\StaffDao.class
+cn\itcast\bos\dao\UserDao.class
+cn\itcast\bos\dao\SubareaDao.class

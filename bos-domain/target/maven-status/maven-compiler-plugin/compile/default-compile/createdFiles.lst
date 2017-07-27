@@ -1,0 +1,6 @@
+cn\itcast\bos\domain\user\User.class
+cn\itcast\bos\domain\bc\Region.class
+cn\itcast\bos\domain\bc\Subarea.class
+cn\itcast\bos\domain\bc\Staff.class
+cn\itcast\bos\domain\bc\DecidedZone.class
+cn\itcast\bos\domain\bc\Standard.class
