@@ -1,9 +1,8 @@
 package cn.itcast.bos.domain.bc;
-// Generated 2017-7-18 17:02:24 by Hibernate Tools 3.2.2.GA
+// Generated 2017-7-27 15:33:36 by Hibernate Tools 3.2.2.GA
 
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.apache.struts2.json.annotations.JSON;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -30,7 +29,8 @@ public class Subarea implements java.io.Serializable {
     public Subarea() {
     }
 
-    public Subarea(DecidedZone decidedZone, Region region, String addresskey, String startnum, String endnum, Character single, String position) {
+    public Subarea(DecidedZone decidedZone, Region region, String addresskey, String startnum,
+                   String endnum, Character single, String position) {
         this.decidedZone = decidedZone;
         this.region = region;
         this.addresskey = addresskey;
@@ -52,14 +52,9 @@ public class Subarea implements java.io.Serializable {
     public void setId(String id) {
         this.id = id;
     }
-    @Transient
-    public String getSid() {
-        return this.id;
-    }
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "DECIDEDZONE_ID")
-    @JSON(serialize = false)
     @JSONField(serialize = false)
     public DecidedZone getDecidedZone() {
         return this.decidedZone;

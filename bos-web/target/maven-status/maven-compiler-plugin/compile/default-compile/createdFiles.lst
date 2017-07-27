@@ -9,3 +9,4 @@ cn\itcast\bos\action\bc\StaffAction.class
 cn\itcast\bos\action\user\UserAction$1.class
 cn\itcast\bos\action\bc\StandardAction.class
 cn\itcast\bos\action\bc\RegionAction.class
+cn\itcast\bos\action\city\LoadCityAction.class

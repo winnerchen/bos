@@ -2,8 +2,11 @@ cn\itcast\bos\service\impl\UserServiceImpl.class
 cn\itcast\bos\service\impl\FacadeService.class
 cn\itcast\bos\service\impl\StandardServiceImpl.class
 cn\itcast\bos\service\UserService.class
+cn\itcast\bos\service\CityService.class
 cn\itcast\bos\service\SubareaService.class
+cn\itcast\bos\service\impl\NoticeBillServiceImpl$1.class
 cn\itcast\bos\service\impl\StaffServiceImpl.class
+cn\itcast\bos\service\impl\CityServiceImpl.class
 cn\itcast\bos\service\StandardService.class
 cn\itcast\bos\service\impl\RegionServiceImpl.class
 cn\itcast\bos\service\impl\SubareaServiceImpl.class

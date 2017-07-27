@@ -1,9 +1,8 @@
 package cn.itcast.bos.domain.bc;
-// Generated 2017-7-18 17:02:24 by Hibernate Tools 3.2.2.GA
+// Generated 2017-7-27 15:33:36 by Hibernate Tools 3.2.2.GA
 
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.apache.struts2.json.annotations.JSON;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -32,7 +31,8 @@ public class Region implements java.io.Serializable {
     public Region() {
     }
 
-    public Region(String province, String city, String district, String postcode, String shortcode, String citycode, Set<Subarea> subareas) {
+    public Region(String province, String city, String district, String postcode, String
+            shortcode, String citycode, Set<Subarea> subareas) {
         this.province = province;
         this.city = city;
         this.district = district;
@@ -42,10 +42,7 @@ public class Region implements java.io.Serializable {
         this.subareas = subareas;
     }
 
-    @GenericGenerator(name = "generator", strategy = "assigned")
     @Id
-    @GeneratedValue(generator = "generator")
-
     @Column(name = "ID", unique = true, nullable = false, length = 32)
     public String getId() {
         return this.id;
@@ -53,11 +50,6 @@ public class Region implements java.io.Serializable {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    @Transient
-    public String getName() {
-        return this.province + this.city + this.district;
     }
 
     @Column(name = "PROVINCE", length = 50)

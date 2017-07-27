@@ -2,6 +2,7 @@ package cn.itcast.bos.service.impl;
 
 import cn.itcast.bos.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -18,6 +19,10 @@ public class FacadeService {
 	private SubareaService subareaService;
 	@Autowired
 	private DecidedZoneService decideZoneService;
+	@Autowired
+	private CityService cityService;
+	@Autowired
+	private NoticeBillService noticeBillService;
 
 
 	public UserService getUserService(){
@@ -46,5 +51,13 @@ public class FacadeService {
 
 	public DecidedZoneService getDecidedZoneService() {
 		return decideZoneService;
+	}
+
+	public CityService getCityService() {
+		return cityService;
+	}
+
+	public NoticeBillService getNoticeBillService() {
+		return noticeBillService;
 	}
 }

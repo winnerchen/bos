@@ -1,9 +1,8 @@
 package cn.itcast.bos.domain.bc;
-// Generated 2017-7-18 17:02:24 by Hibernate Tools 3.2.2.GA
+// Generated 2017-7-27 15:33:36 by Hibernate Tools 3.2.2.GA
 
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.apache.struts2.json.annotations.JSON;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -25,7 +24,7 @@ public class Staff implements java.io.Serializable {
     private String name;
     private String telephone;
     private Integer haspda;
-    private Integer deltag = 1;
+    private Integer deltag;
     private String station;
     private String standard;
     private Set<DecidedZone> decidedZones = new HashSet<DecidedZone>(0);
@@ -38,7 +37,8 @@ public class Staff implements java.io.Serializable {
         this.telephone = telephone;
     }
 
-    public Staff(String name, String telephone, Integer haspda, Integer deltag, String station, String standard, Set<DecidedZone> decidedZones) {
+    public Staff(String name, String telephone, Integer haspda, Integer deltag, String station,
+                 String standard, Set<DecidedZone> decidedZones) {
         this.name = name;
         this.telephone = telephone;
         this.haspda = haspda;
@@ -117,7 +117,6 @@ public class Staff implements java.io.Serializable {
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "staff")
     @JSONField(serialize = false)
-    @JSON(serialize = false)
     public Set<DecidedZone> getDecidedZones() {
         return this.decidedZones;
     }
