@@ -1,14 +1,12 @@
 package cn.itcast.bos.service.test;
 
+import cn.itcast.bos.domain.user.User;
+import cn.itcast.bos.service.impl.FacadeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import cn.itcast.bos.domain.user.User;
-import cn.itcast.bos.service.UserService;
-import cn.itcast.bos.service.impl.FacadeService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {

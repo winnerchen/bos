@@ -33,7 +33,7 @@
 
             $("#telephone").blur(function () {
                 if (this.value == "") {
-                    alert("手机号必须书写");
+                    //alert("手机号必须书写");
                     return;
                 } else {
                     $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"telephone": this.value}, function (data) {
@@ -63,13 +63,16 @@
                     // 提交新单 将省市区信息中文信息发送到后台
                     //  省市区 获取显示值  提交后台 orderServlet?method=save
                     var data = document.getElementById("province").selectedOptions[0].text + document.getElementById("city").selectedOptions[0].text + document.getElementById("district").selectedOptions[0].text;
-                    alert(data);
+                    var nprovincetext=document.getElementById("province").selectedOptions[0].text;
+                    var ncitytext = document.getElementById("city").selectedOptions[0].text
+                    var ndistricttext = document.getElementById("district").selectedOptions[0].text;
+
+                    //alert(data);
                     $("#nprovince").val(nprovincetext);
                     $("#ncity").val(ncitytext);
                     $("#ndistrict").val(ndistricttext);
                     $('#noticebillForm').submit();
 
-                    $('#noticebillForm').submit();
                 }
             });
         });
@@ -126,7 +129,7 @@
                 </td>
                 <td>客户编号:</td>
                 <td><input type="text" class="easyui-validatebox" name="customerId" id="customerId"
-                           required="true"/></td>
+                           /></td>
             </tr>
             <tr>
                 <td>客户姓名:</td>
@@ -134,7 +137,7 @@
                            id="customerName" required="true"/></td>
                 <td>联系人:</td>
                 <td><input type="text" class="easyui-validatebox" name="delegater"
-                           required="true"/></td>
+                           /></td>
             </tr>
             <tr class="title">
                 <td colspan="4">货物信息</td>
@@ -142,18 +145,18 @@
             <tr>
                 <td>品名:</td>
                 <td><input type="text" class="easyui-validatebox" name="product"
-                           required="true"/></td>
+                           /></td>
                 <td>件数:</td>
                 <td><input type="text" class="easyui-numberbox" name="num"
-                           required="true"/></td>
+                           /></td>
             </tr>
             <tr>
                 <td>重量:</td>
                 <td><input type="text" class="easyui-numberbox" name="weight"
-                           required="true"/></td>
+                           /></td>
                 <td>体积:</td>
                 <td><input type="text" class="easyui-validatebox" name="volume"
-                           required="true"/></td>
+                           /></td>
             </tr>
             <tr>
                 <td>取件地址</td>
