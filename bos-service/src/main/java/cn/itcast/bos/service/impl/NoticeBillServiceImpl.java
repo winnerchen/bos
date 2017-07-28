@@ -52,7 +52,6 @@ public class NoticeBillServiceImpl implements NoticeBillService {
 
     @Override
     public Customer findCustomerByTelephone(String telephone) {
-        // CRM
         String url = BaseInterface.CRM_BASE_URL + "/findcustomerbytelephone/" + telephone;
         Customer c = WebClient.create(url).accept(MediaType.APPLICATION_JSON).get(Customer.class);
         return c;

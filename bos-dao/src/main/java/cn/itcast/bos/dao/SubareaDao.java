@@ -18,5 +18,5 @@ public interface SubareaDao extends JpaRepository<Subarea, String>, JpaSpecifica
     List<Subarea> noassociation();
     @Modifying
     @Query("update Subarea set decidedZone=?2 where id=?1")
-    void associationtoDecidedzone(String id, DecidedZone model);
+    void associationtoDecidedzone(String id , DecidedZone model);
 }

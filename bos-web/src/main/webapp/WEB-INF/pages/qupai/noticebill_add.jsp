@@ -31,12 +31,12 @@
             $("body").css({visibility: "visible"});
             load(0, province);//  页面加载立刻执行   传递value  0    ,目标对象  province
 
-            $("#telephone").blur(function () {
+            $("#").blur(function  () {
                 if (this.value == "") {
                     //alert("手机号必须书写");
                     return;
                 } else {
-                    $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"telephone": this.value}, function (data) {
+                    $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"": this.value}, function (data) {
                         // data  {customer}
                         if (data == null) {
                             //  新客户 提示
@@ -123,8 +123,8 @@
                     <input type="hidden" id="nprovince" name="nprovince">
                     <input type="hidden" id="ncity" name="ncity">
                     <input type="hidden" id="ndistrict" name="ndistrict">
-                    <input type="text" class="easyui-validatebox" name="telephone"
-                           required="true" id="telephone"/>
+                    <input type="text" class="easyui-validatebox" name=""
+                           required="true" id=""/>
                     <span id="tel_sp"></span>
                 </td>
                 <td>客户编号:</td>
