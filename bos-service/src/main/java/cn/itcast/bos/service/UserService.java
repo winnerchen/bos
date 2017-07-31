@@ -21,4 +21,6 @@ public interface UserService {
 	User findUserByTelpehone(String telephone);
 
 	void updatePasswordByTelephone(String telephone, String password);
+
+	User findUserByEmail(String username);
 }

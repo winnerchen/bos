@@ -1,9 +1,14 @@
 cn\itcast\bos\action\bc\StaffAction$1.class
 cn\itcast\bos\action\base\BaseAction.class
+cn\itcast\bos\action\auth\FunctionAction.class
+cn\itcast\bos\action\bc\DecidedZoneAction$1.class
 cn\itcast\bos\action\bc\SubareaAction$1.class
+cn\itcast\bos\action\bc\DecidedZoneAction.class
 cn\itcast\bos\action\user\UserAction.class
 cn\itcast\bos\interceptor\MyLoginInterceptor.class
+cn\itcast\bos\action\noticebill\NoticeBillAction.class
 cn\itcast\bos\action\result\FastJsonResult.class
+cn\itcast\bos\action\auth\MenuAction.class
 cn\itcast\bos\action\bc\SubareaAction.class
 cn\itcast\bos\action\bc\StaffAction.class
 cn\itcast\bos\action\user\UserAction$1.class

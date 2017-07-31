@@ -24,9 +24,9 @@
         <processorPath useClasspath="true" />
         <module name="bos-dao" />
         <module name="bos-domain" />
-        <module name="bos-mqproducer" />
         <module name="bos-redis" />
         <module name="bos-service" />
+        <module name="bos-shiro" />
         <module name="bos-utils" />
         <module name="bos-web" />
       </profile>
@@ -38,6 +38,7 @@
       <module name="bos-parent" target="1.7" />
       <module name="bos-redis" target="1.7" />
       <module name="bos-service" target="1.7" />
+      <module name="bos-shiro" target="1.7" />
       <module name="bos-utils" target="1.7" />
       <module name="bos-web" target="1.7" />
     </bytecodeTargetLevel>

@@ -1,13 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="d439b2a3-b396-414a-9889-799cbd38f84e" name="Default" comment="Initial commit to svn">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" readonly="true" id="d439b2a3-b396-414a-9889-799cbd38f84e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_itcast_mavenbos_bos_mqproducer_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_r09.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/standard_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-26" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/daiban_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/role_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/gonggao_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/diaodu_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/region_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/bug_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/common/home_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-redis/target/test-classes/cn/itcast/bos/redis/test/RedisTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/staff_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/userindex_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/role_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/decidedzone_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/daiban_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-service/target/test-classes/cn/itcast/bos/service/test/ServiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/function_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/workorderimport_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/region_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-domain/target/test-classes/cn/itcast/fastjson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/bug_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/standard_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/workorderimport_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/function_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/common/home_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/subarea_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/gonggao_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/diaodu_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/noticebill_005fadd_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/admin/userindex_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/quickworkorder_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/quickworkorder_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/subarea_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-utils/target/test-classes/cn/itcast/bos/utils/pyTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/yujing_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/decidedzone_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/qupai/noticebill_005fadd_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/base/staff_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/portal/yujing_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-25" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/SubareaDao.java" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/SubareaDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" afterPath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-redis/src/main/resources/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/bos-redis/src/main/resources/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/UserService.class" afterPath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/noticebill/NoticeBillAction.class" afterPath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/noticebill/NoticeBillAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/user/UserAction.class" afterPath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/user/UserAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/bos-web.iml" afterPath="$PROJECT_DIR$/bos-web/bos-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-redis/target/classes/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/bos-redis/target/classes/applicationContext-redis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-28" afterPath="$PROJECT_DIR$/bos-web/target/tomcat/logs/access_log.2017-07-28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java" afterPath="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/user/UserAction$1.class" afterPath="$PROJECT_DIR$/bos-web/target/classes/cn/itcast/bos/action/user/UserAction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/bos-service.iml" afterPath="$PROJECT_DIR$/bos-service/bos-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" afterPath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-mqproducer/src/main/resources/applicationContext-producer.xml" afterPath="$PROJECT_DIR$/bos-mqproducer/src/main/resources/applicationContext-producer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/NoticeBillServiceImpl$1.class" afterPath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/NoticeBillServiceImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/UserService.java" afterPath="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/NoticeBillServiceImpl.class" afterPath="$PROJECT_DIR$/bos-service/target/classes/cn/itcast/bos/service/impl/NoticeBillServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/target/classes/applicationContext-service.xml" afterPath="$PROJECT_DIR$/bos-service/target/classes/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java" afterPath="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-dao/target/classes/cn/itcast/bos/dao/UserDao.class" afterPath="$PROJECT_DIR$/bos-dao/target/classes/cn/itcast/bos/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/pom.xml" afterPath="$PROJECT_DIR$/bos-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-service/src/main/resources/applicationContext-service.xml" afterPath="$PROJECT_DIR$/bos-service/src/main/resources/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-mqproducer/target/classes/applicationContext-producer.xml" afterPath="$PROJECT_DIR$/bos-mqproducer/target/classes/applicationContext-producer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/UserDao.java" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bos_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bos_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/validatecode_jsp.java" afterPath="$PROJECT_DIR$/bos-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/validatecode_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-web/pom.xml" afterPath="$PROJECT_DIR$/bos-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="bos-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,6 +112,7 @@
     <ignored path="$PROJECT_DIR$/bos-utils/target/" />
     <ignored path="$PROJECT_DIR$/bos-redis/target/" />
     <ignored path="$PROJECT_DIR$/bos-mqproducer/target/" />
+    <ignored path="$PROJECT_DIR$/bos-shiro/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,51 +137,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="noticebill_add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp">
+      <file leaf-file-name="MenuAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/MenuAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-service/src/test/java/cn/itcast/bos/service/test/ServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-mqproducer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DecidedZoneDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/DecidedZoneDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="111" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoticeBillAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="482">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,53 +149,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoticeBillServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java">
+      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <file leaf-file-name="role.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="4114">
+              <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoticeBillDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/NoticeBillDao.java">
+      <file leaf-file-name="applicationContext-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-shiro/src/main/resources/applicationContext-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="279">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubareaDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/SubareaDao.java">
+      <file leaf-file-name="BosRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-shiro/src/main/java/cn/itcast/bos/realm/BosRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="242">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/base/BaseInterface.java">
+      <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -154,8 +218,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -170,57 +235,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/StandardAction.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/RegionAction.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/result/FastJsonResult.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/base/BaseAction.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/DecidedZoneService.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/DecideZoneAction.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/DecidedZoneAction.java" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/DecidedZoneDao.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/staff.jsp" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/StaffAction.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/StaffService.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/StaffServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/StaffDao.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/SubareaService.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/SubareaAction.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/SubareaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/base/BaseInterface.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/resources/crm.properties" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/DecidedZoneService.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/DecidedZoneServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/DecidedZoneAction.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/NoticeBill.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/WorkBill.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/resources/reveng.xml" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/city/City.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Standard.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Region.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Subarea.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Staff.java" />
-        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/DecidedZone.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/CityService.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/CityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/city/LoadCityAction.java" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/CityDao.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/FacadeService.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/NoticeBillService.java" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/WorkBillDao.java" />
-        <option value="$PROJECT_DIR$/bos-service/pom.xml" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RegionDao.java" />
-        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/NoticeBillDao.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java" />
-        <option value="$PROJECT_DIR$/bos-service/src/test/java/cn/itcast/bos/service/test/ServiceTest.java" />
-        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" />
-        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/SubareaDao.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/base/BaseAction.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/NoticeBill.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos-mqproducer/src/main/resources/applicationContext-producer.xml" />
+        <option value="$PROJECT_DIR$/bos-shiro/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/UserService.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/interceptor/BosRealm.java" />
+        <option value="$PROJECT_DIR$/bos-redis/src/main/resources/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/bos-service/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-web/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-shiro/src/main/java/cn/itcast/bos/realm/BosRealm.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/resources/reveng.xml" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/user/User.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java" />
+        <option value="$PROJECT_DIR$/bos-shiro/src/main/resources/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function.jsp" />
+        <option value="$PROJECT_DIR$/bos-mqproducer/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function_add.jsp" />
+        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/FunctionDao.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/json/admin.json" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Function.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/MenuDao.java" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Menu.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/FunctionAction.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/FunctionService.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/FunctionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/StaffAction.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/SubareaAction.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/MenuAction.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/FacadeService.java" />
+        <option value="$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Role.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role_add.jsp" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/RoleAction.java" />
+        <option value="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role.jsp" />
       </list>
     </option>
   </component>
@@ -245,7 +310,48 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mavenbos" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mavenbos" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="bos-web" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -303,8 +409,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,21 +427,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3144705" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="ua&#9;PSI&#9;JAVA://cn.itcast.bos.action.user.UserAction&#10;usi&#9;PSI&#9;JAVA://cn.itcast.bos.service.impl.UserServiceImpl&#10;struts.xml&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/resources/struts.xml&#10;standdao&#9;PSI&#9;JAVA://cn.itcast.bos.dao.StandardDao&#10;standser&#9;PSI&#9;JAVA://cn.itcast.bos.service.impl.StandardServiceImpl&#10;validtele&#9;PSI&#9;JAVA://cn.itcast.bos.service.StaffService#validTelephone&#10;decide&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp&#10;web.xml&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;standard.java&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Standard.java&#10;standarda&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/bc/StandardAction.java&#10;st&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/bc/StandardAction.java&#10;xml&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/resources/struts.xml" />
+    <property name="SearchEverywhereHistoryKey" value="suba&#9;PSI&#9;JAVA://cn.itcast.bos.action.bc.SubareaAction&#10;staffac&#9;PSI&#9;JAVA://cn.itcast.bos.action.bc.StaffAction&#10;includeProperties&#9;PSI&#9;JAVA://cn.itcast.bos.action.result.FastJsonResult#includeProperties&#10;add&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/role_add.jsp&#10;menu_add&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/menu_add.jsp&#10;role&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/role_add.jsp&#10;role.jsp&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/role.jsp&#10;struts.xml&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/resources/struts.xml&#10;menu.java&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Menu.java&#10;admin.json&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/json/admin.json&#10;.json&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/demo/data.json&#10;menu.json&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/demo/menu.json&#10;function&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/function.jsp&#10;staff.jsp&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/base/staff.jsp&#10;func&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/function.jsp&#10;funct&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/admin/function_add.jsp&#10;admin.js&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/json/admin.json&#10;index&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/index.jsp&#10;login.js&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/login.jsp&#10;login&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/login.jsp&#10;log.jsp&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/login.jsp&#10;web&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;UserSe&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java&#10;UserDao&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-dao/src/main/java/cn/itcast/bos/dao/UserDao.java&#10;web.xml&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;app-re&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-redis/src/main/resources/applicationContext-redis.xml&#10;we&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;web.xm&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;web.x&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;web.&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;use&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java&#10;w&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/web.xml&#10;domain&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/resources/applicationContext-domain.xml&#10;application-serv&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-service/src/main/resources/applicationContext-service.xml&#10;usera&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java&#10;decidedzone&#9;PSI&#9;JAVA://cn.itcast.bos.domain.bc.DecidedZone&#10;staff&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/base/staff.jsp&#10;subar&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp&#10;Staff&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Staff.java&#10;NoticeBill&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/java/cn/itcast/bos/domain/courier/NoticeBill.java&#10;BaseAction&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/base/BaseAction.java&#10;noticebill.js&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp&#10;decide&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp&#10;ua&#9;PSI&#9;JAVA://cn.itcast.bos.action.user.UserAction&#10;usi&#9;PSI&#9;JAVA://cn.itcast.bos.service.impl.UserServiceImpl&#10;standdao&#9;PSI&#9;JAVA://cn.itcast.bos.dao.StandardDao&#10;standser&#9;PSI&#9;JAVA://cn.itcast.bos.service.impl.StandardServiceImpl&#10;validtele&#9;PSI&#9;JAVA://cn.itcast.bos.service.StaffService#validTelephone&#10;standard.java&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Standard.java&#10;standarda&#9;FILE&#9;file://F:/黑马程序员/workspace_myeclipse/bos-parent/bos-web/src/main/java/cn/itcast/bos/action/bc/StandardAction.java" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -350,17 +544,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-web\src\main\webapp\WEB-INF\pages\admin" />
+      <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-domain\src\main\java\cn\itcast\bos\domain" />
       <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-domain\src\main\java\cn\itcast\bos\domain\courier" />
       <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-domain\src\main\java\cn\itcast\bos\domain\bc" />
       <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-domain\src\main\java\cn\itcast\bos\domain\city" />
-      <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-utils\src\main\java\cn\itcast\bos\utils" />
-      <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-domain\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.bos.action.auth" />
+      <recent name="cn.itcast.bos.domain.user" />
+      <recent name="cn.itcast.bos.interceptor" />
       <recent name="cn.itcast.bos.domain.city" />
       <recent name="cn.itcast.crm.domain" />
-      <recent name="cn.itcast.bos.action.region" />
-      <recent name="cn.itcast.bos.domain.bc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\黑马程序员\workspace_myeclipse\bos-parent\bos-web\src\main\webapp\ocp" />
@@ -997,6 +1192,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SpringConfigurationTabSettings">
+    <option name="sortAlpha" value="true" />
+  </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\hasee\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -1042,7 +1240,21 @@
       <workItem from="1501067306748" duration="8734000" />
       <workItem from="1501117282390" duration="6502000" />
       <workItem from="1501142355259" duration="17548000" />
-      <workItem from="1501208052817" duration="6749000" />
+      <workItem from="1501208052817" duration="17446000" />
+      <workItem from="1501249363977" duration="483000" />
+      <workItem from="1501312075343" duration="11288000" />
+      <workItem from="1501374661957" duration="5390000" />
+      <workItem from="1501380732526" duration="796000" />
+      <workItem from="1501381700106" duration="1282000" />
+      <workItem from="1501383903610" duration="14000" />
+      <workItem from="1501384118379" duration="56000" />
+      <workItem from="1501384235004" duration="10634000" />
+      <workItem from="1501413058991" duration="3204000" />
+      <workItem from="1501416275285" duration="92000" />
+      <workItem from="1501416394628" duration="2972000" />
+      <workItem from="1501420358618" duration="45000" />
+      <workItem from="1501483305972" duration="643000" />
+      <workItem from="1501484112570" duration="8791000" />
     </task>
     <servers />
   </component>
@@ -1079,7 +1291,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191763000" />
+    <option name="totallyTimeSpent" value="248150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1092,12 +1304,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5327869" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.50321543" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1693462" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1693462" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1105,27 +1316,28 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21779859" sideWeight="0.49785638" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3384075" sideWeight="0.49785638" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.49678457" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3208431" sideWeight="0.49785638" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3793911" sideWeight="0.49678457" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.085480094" sideWeight="0.49785638" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33372366" sideWeight="0.5021436" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24705252" sideWeight="0.49122807" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24705252" sideWeight="0.50877196" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24705252" sideWeight="0.48393196" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24705252" sideWeight="0.5152" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24705252" sideWeight="0.51606804" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5327869" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270809" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1141,19 +1353,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit to svn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit to svn" />
+    <MESSAGE value="added shiro framework" />
+    <MESSAGE value="initial submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial submit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/result/FastJsonResult.java</url>
+          <line>81</line>
           <properties />
-          <option name="timeStamp" value="63" />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1162,559 +1376,427 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/jquery.easyui.min.js">
+    <entry file="file://$PROJECT_DIR$/bos-mqproducer/target/classes/applicationContext-producer.xml" />
+    <entry file="file://$PROJECT_DIR$/bos-mqproducer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5872" column="20" selection-start-line="5872" selection-start-column="20" selection-end-line="5872" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-mqproducer/src/main/resources/applicationContext-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/DecidedZoneService.java">
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/staff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="317" column="91" selection-start-line="317" selection-start-column="91" selection-end-line="317" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/DecidedZoneDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/DecidedZoneServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/FunctionDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/demo/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+        <state relative-caret-position="313">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <marker date="1500721187677" expanded="true" signature="3760:3799" ph="..." />
-            <marker date="1500721187677" expanded="true" signature="3884:3916" ph="..." />
+            <marker date="1501405873153" expanded="true" signature="3823:3862" ph="..." />
+            <marker date="1501405873153" expanded="true" signature="3947:3979" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp">
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/json/admin.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="465" column="62" selection-start-line="465" selection-start-column="62" selection-end-line="465" selection-end-column="62" />
+        <state relative-caret-position="88">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/demo/menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/NoticeBillDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1-sources.jar!/com/opensymphony/xwork2/DefaultActionInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3234">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/NoticeBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/WorkOrderManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/courier/WorkBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1361#1362#0" expanded="false" />
-            <element signature="e#1397#1398#0" expanded="false" />
-            <element signature="e#1425#1426#0" expanded="false" />
-            <element signature="e#1536#1537#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1630#1631#0" expanded="false" />
-            <element signature="e#1674#1675#0" expanded="false" />
-            <element signature="e#1770#1771#0" expanded="false" />
-            <element signature="e#1803#1804#0" expanded="false" />
-            <element signature="e#1848#1849#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1953#1954#0" expanded="false" />
-            <element signature="e#1985#1986#0" expanded="false" />
-            <element signature="e#2029#2030#0" expanded="false" />
-            <element signature="e#2061#2062#0" expanded="false" />
-            <element signature="e#2142#2143#0" expanded="false" />
-            <element signature="e#2179#2180#0" expanded="false" />
-            <element signature="e#2233#2234#0" expanded="false" />
-            <element signature="e#2275#2276#0" expanded="false" />
-            <element signature="e#2402#2403#0" expanded="false" />
-            <element signature="e#2439#2440#0" expanded="false" />
-            <element signature="e#2491#2492#0" expanded="false" />
-            <element signature="e#2533#2534#0" expanded="false" />
-            <element signature="e#2638#2639#0" expanded="false" />
-            <element signature="e#2681#2682#0" expanded="false" />
-            <element signature="e#2866#2867#0" expanded="false" />
-            <element signature="e#2900#2901#0" expanded="false" />
-            <element signature="e#2948#2949#0" expanded="false" />
-            <element signature="e#2984#2985#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/city/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Standard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Subarea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/DecidedZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/CityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/CityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/city/LoadCityAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/CityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/RegionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="146" column="101" selection-start-line="146" selection-start-column="97" selection-end-line="146" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos-web/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/MenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/menu_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/FunctionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#962#963#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/FunctionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/result/FastJsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/StaffAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="e#3432#4736#0" expanded="true" />
+            <element signature="e#4735#4736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/SubareaAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/base/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="18" />
+        <state relative-caret-position="334">
+          <caret line="163" column="54" selection-start-line="163" selection-start-column="54" selection-end-line="163" selection-end-column="54" />
           <folding>
-            <element signature="e#1006#1007#0" expanded="false" />
-            <element signature="e#1037#1038#0" expanded="false" />
+            <element signature="e#2040#4809#0" expanded="true" />
+            <element signature="e#4808#4809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Region.java">
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/FunctionAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/FacadeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/bc/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/NoticeBillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="418">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/resources/reveng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/bc/DecidedZoneAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="141" column="43" selection-start-line="141" selection-start-column="43" selection-end-line="141" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/WorkBillDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/cn.itcast.mavenbos:bos-web:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>cn.itcast.mavenbos:bos-web:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.itcast.mavenbos:bos-web:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-dao:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.0/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/org.apache.cxf:cxf-core:jar:3.0.1/org.apache.ws.xmlschema:xmlschema-core:jar:2.1.0</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.ws.rs:javax.ws.rs-api:jar:2.0</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/javax.annotation:javax.annotation-api:jar:1.2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.1/org.apache.cxf:cxf-rt-transports-http:jar:3.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-rs-client:jar:3.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-service:jar:1.0-SNAPSHOT/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.apache.struts:struts2-json-plugin:jar:2.3.16.1</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/com.alibaba:fastjson:jar:1.2.24</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework:spring-aspects:jar:4.2.8.RELEASE/org.aspectj:aspectjweaver:jar:1.8.9</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework:spring-orm:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework:spring-orm:jar:4.2.8.RELEASE/org.springframework:spring-jdbc:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework:spring-test:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.19</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-jpa:jar:1.10.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.19</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:4.2.6.Final/org.javassist:javassist:jar:3.15.0-GA</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-entitymanager:jar:4.2.6.Final</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.5</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.5/org.slf4j:slf4j-api:jar:1.7.5</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.5/log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/c3p0:c3p0:jar:0.9.1.2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.0.8</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-tools:jar:3.2.4.GA</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-tools:jar:3.2.4.GA/org.beanshell:bsh:jar:2.0b4</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-tools:jar:3.2.4.GA/freemarker:freemarker:jar:2.3.8</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/cn.itcast.mavenbos:bos-domain:jar:1.0-SNAPSHOT/org.hibernate:hibernate-tools:jar:3.2.4.GA/org.hibernate:jtidy:jar:r8-20060801</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.8.RELEASE/org.springframework:spring-messaging:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.springframework:spring-jms:jar:4.2.8.RELEASE/org.springframework:spring-tx:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.apache.activemq:activemq-all:jar:5.2.0</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.apache.xbean:xbean-spring:jar:3.7</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-mqproducer:jar:1.0-SNAPSHOT/org.apache.xbean:xbean-spring:jar:3.7/commons-logging:commons-logging:jar:1.0.3</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/redis.clients:jedis:jar:2.6.2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/redis.clients:jedis:jar:2.6.2/org.apache.commons:commons-pool2:jar:2.0</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.1.1.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.1.1.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.1.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.1.1.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-tx:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-oxm:jar:4.2.5.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-oxm:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-oxm:jar:4.2.5.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.springframework:spring-context-support:jar:4.2.8.RELEASE</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.19</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-redis:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-redis:jar:1.7.1.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.19</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-aop:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-aop:jar:4.2.8.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-beans:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-context:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-context:jar:4.2.8.RELEASE/org.springframework:spring-expression:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-core:jar:4.2.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:4.2.8.RELEASE/org.springframework:spring-core:jar:4.2.8.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-utils:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-utils:jar:1.0-SNAPSHOT/cn.itcast.dayu.heima04:heima04dayu:jar:2.2.2</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-utils:jar:1.0-SNAPSHOT/com.aliyun:aliyun-java-sdk-core:jar:3.2.3</node>
-            <node x="" y="">cn.itcast.mavenbos:bos-utils:jar:1.0-SNAPSHOT/pinyin4j:pinyin4j:jar:2.5.0</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/org.apache.struts.xwork:xwork-core:jar:2.3.16.1</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/org.apache.struts.xwork:xwork-core:jar:2.3.16.1/asm:asm:jar:3.3</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/org.apache.struts.xwork:xwork-core:jar:2.3.16.1/asm:asm-commons:jar:3.3</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/org.apache.struts.xwork:xwork-core:jar:2.3.16.1/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/org.freemarker:freemarker:jar:2.3.19</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/ognl:ognl:jar:3.0.6</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/commons-fileupload:commons-fileupload:jar:1.3.1</node>
-            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16.1/commons-io:commons-io:jar:2.2</node>
-            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.1</node>
-            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.1/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.1/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.1/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.16.1</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
-            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.apache.poi:poi:jar:3.9</node>
-            <node x="" y="">org.apache.poi:poi:jar:3.9/commons-codec:commons-codec:jar:1.5</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.9</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.9/org.apache.poi:poi-ooxml-schemas:jar:3.9/org.apache.xmlbeans:xmlbeans:jar:2.3.0</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.9/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:3.9/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8971232428898331" x="646.0" y="334.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="333" column="38" selection-start-line="333" selection-start-column="35" selection-end-line="333" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RegionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RegionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/resources/crm.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/base/BaseInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-service/src/test/java/cn/itcast/bos/service/test/ServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/NoticeBillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RegionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="97" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-domain/src/main/java/cn/itcast/bos/domain/auth/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/standard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/base/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/RoleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/bos-service/src/main/java/cn/itcast/bos/service/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos-mqproducer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/auth/MenuAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/DecidedZoneDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="111" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/NoticeBillDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-dao/src/main/java/cn/itcast/bos/dao/SubareaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/noticebill/NoticeBillAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="482">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-shiro/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-shiro/src/main/java/cn/itcast/bos/realm/BosRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="168" column="50" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="183" column="50" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-web/src/main/java/cn/itcast/bos/action/user/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,7 +1819,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (bos-mqproducer)|Spring</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1772,7 +1854,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bos-mqproducer</last-edited>
+          <last-edited>Spring|bos-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

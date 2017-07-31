@@ -22,7 +22,7 @@
         http://activemq.apache.org/schema/core/activemq-core.xsd ">
 
     <!-- 扫瞄包 -->
-    <!-- 	<context:component-scan base-package="cn.itcast.activemq" /> -->
+    <!--<context:component-scan base-package="cn.itcast.activemq" /> -->
 
     <!-- ActiveMQ 连接工厂 -->
     <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供-->

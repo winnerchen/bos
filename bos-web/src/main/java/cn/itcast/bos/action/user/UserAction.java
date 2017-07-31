@@ -4,9 +4,11 @@ import cn.itcast.bos.action.base.BaseAction;
 import cn.itcast.bos.domain.user.User;
 import cn.itcast.bos.service.impl.FacadeService;
 import cn.itcast.send.message.RandStringUtils;
-import com.opensymphony.xwork2.ActionContext;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.struts2.ServletActionContext;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
@@ -23,7 +25,6 @@ import javax.jms.JMSException;
 import javax.jms.MapMessage;
 import javax.jms.Message;
 import javax.jms.Session;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @Controller
@@ -60,33 +61,24 @@ public class UserAction extends BaseAction<User> {
 			@Result(name = "login_ok", type = "redirect", location = "/index.jsp"),
 			@Result(name = "input", location = "/login.jsp") })
 	public String login() {
-		User existUser = facadeService.getUserService().login(model.getEmail(),
-				model.getPassword());
-		System.out.println("查询了用户");
-		// 一次性验证码
-		removeSessionAttribute("key");
-		if (existUser == null) {
-			this.addActionError(this.getText("login.emailorpassword.error"));// 国际化配置文件加载该数据
-			return "login_error";
-		} else {
-			setSessionAttribute("existUser", existUser);
-			Map<String, Object> session = ActionContext.getContext().getSession();
-
-			Map<String, Object> application = ActionContext.getContext().getApplication();
-			Integer count = (Integer)application.get("count");
-			if (count == null) {
-				count=0;
-			}
-			if (!session.containsValue(existUser.getEmail())) {
-				session.put("username",existUser.getEmail());
-				count++;
-			}
-			application.put("count", count);
-			System.out.println("UserAction 当前在线人数："+count);
-
-			setSessionAttribute("ipAddr", ServletActionContext.getRequest().getRemoteAddr());
+		Subject subject = SecurityUtils.getSubject();
+		UsernamePasswordToken token = new UsernamePasswordToken(model.getEmail(), model
+				.getPassword());
+		try {
+			subject.login(token);
 			return "login_ok";
+		} catch (AuthenticationException e) {
+			e.printStackTrace();
+			this.addActionError(this.getText("login.usernameOrPassword.error"));
+			return "login_error";
 		}
+	}
+	@Action(value = "userAction_logout", results = {
+			@Result(name = "logout",type = "redirect",location = "/login.jsp")})
+	public String userAction_logout() {
+		Subject subject = SecurityUtils.getSubject();
+		subject.logout();
+		return "logout";
 	}
 
 	@Action(value = "userAction_sendSms", results = { @Result(name = "sendSms", type = "json") })

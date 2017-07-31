@@ -23,7 +23,20 @@ public class FacadeService {
 	private CityService cityService;
 	@Autowired
 	private NoticeBillService noticeBillService;
+	@Autowired
+	private FunctionService functionService;
+	@Autowired
+	private MenuService menuService;
+	@Autowired
+	private RoleService roleService;
 
+	public RoleService getRoleService() {
+		return roleService;
+	}
+
+	public MenuService getMenuService() {
+		return menuService;
+	}
 
 	public UserService getUserService(){
 		return userService;
@@ -59,5 +72,9 @@ public class FacadeService {
 
 	public NoticeBillService getNoticeBillService() {
 		return noticeBillService;
+	}
+
+	public FunctionService getFunctionService() {
+		return functionService;
 	}
 }

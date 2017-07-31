@@ -83,15 +83,17 @@ input[type=password] {
 			<div class="loginFunc">
 				<div id="lbNormal" class="loginFuncMobile">员工登录</div>
 			</div>
+			<s:actionerror></s:actionerror>
+
 			<div class="loginForm">
 				<form id="loginform" name="loginform" method="post" class="niceform"
 					action="${pageContext.request.contextPath }/userAction_login">
 					<div id="idInputLine" class="loginFormIpt showPlaceholder"
-						style="margin-top: 5px;">
+						 style="margin-top: 5px;">
 						<input id="loginform:idInput" type="text" name="email"
-							class="loginFormTdIpt easyui-validatebox" maxlength="50"
-							 data-options="required:true,validType:'email'"
-							 />
+							   class="loginFormTdIpt easyui-validatebox" maxlength="50"
+							   data-options="required:true,validType:'email'"
+						/>
 						<label for="idInput" class="placeholder" id="idPlaceholder">帐号：</label>
 					</div>
 					<div class="forgetPwdLine"></div>

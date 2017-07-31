@@ -36,15 +36,19 @@ import java.util.List;
 public class SubareaAction extends BaseAction<Subarea> {
     @Autowired
     private FacadeService facadeService;
-    @Action(value = "subareaAction_save", results = { @Result(name = "save", location = "/WEB-INF/pages/base/subarea.jsp") })
+
+    @Action(value = "subareaAction_save", results = {@Result(name = "save", location =
+            "/WEB-INF/pages/base/subarea.jsp")})
     public String save() {
         facadeService.getSubareaService().save(model);
         return "save";
     }
+
     @Action(value = "subareaAction_pageQuery")
     public String pageQuery() {
         Specification<Subarea> spec = getSpecification();
-        Page<Subarea> subareas = facadeService.getSubareaService().pageQuery(getPageRequest(), spec);
+        Page<Subarea> subareas = facadeService.getSubareaService().pageQuery(getPageRequest(),
+                spec);
         setPageData(subareas);
         return "pageQuery";
 
@@ -52,58 +56,67 @@ public class SubareaAction extends BaseAction<Subarea> {
 
     private Specification<Subarea> getSpecification() {
         return new Specification<Subarea>() {
-                @Override
-                public Predicate toPredicate(Root<Subarea> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
-                    //System.out.println("进入匿名内部类");
-                    // root Subarea cb 建立条件
-                    List<Predicate> predicates = new ArrayList<Predicate>();
+            @Override
+            public Predicate toPredicate(Root<Subarea> root, CriteriaQuery<?> query,
+                                         CriteriaBuilder cb) {
+                //System.out.println("进入匿名内部类");
+                // root Subarea cb 建立条件
+                List<Predicate> predicates = new ArrayList<Predicate>();
 
-                    // subarea表添加条件n 1 Region表添加条件 1 定区编号查询 OID
-                    // 单表连接自己
-                    if (StringUtils.isNotBlank(model.getAddresskey())) {
-                        Predicate p1 = cb.like(root.get("addresskey").as(String.class), "%" + model.getAddresskey() + "%");
-                        // p1 满足查询对象
-                        predicates.add(p1);
-                    }
-                    // 主表Subarea n 连接从表 1 Region
-                    // 多方连接一方
-                    if (model.getRegion() != null) {
-                        // 连接 region表 regionJoin 操作region表
-                        Join<Subarea, Region> regionJoin = root.join(root.getModel().getSingularAttribute("region", Region.class), JoinType.LEFT);
-                        // 多方 去连接一方 ....
-                        if (StringUtils.isNotBlank(model.getRegion().getProvince())) {
-                            Predicate p2 = cb.like(regionJoin.get("province").as(String.class), "%" + model.getRegion().getProvince() + "%");
-                            // p2 满足查询对象
-                            predicates.add(p2);
-                        }
-                        if (StringUtils.isNotBlank(model.getRegion().getCity())) {
-                            Predicate p3 = cb.like(regionJoin.get("city").as(String.class), "%" + model.getRegion().getCity() + "%");
-                            // p2 满足查询对象
-                            predicates.add(p3);
-                        }
-                        if (StringUtils.isNotBlank(model.getRegion().getDistrict())) {
-                            Predicate p4 = cb.like(regionJoin.get("district").as(String.class), "%" + model.getRegion().getDistrict() + "%");
-                            // p2 满足查询对象
-                            predicates.add(p4);
-                        }
-                    }
-                    // 定区 比较对象 比较OID
-                    if (model.getDecidedZone() != null && StringUtils.isNotBlank(model.getDecidedZone().getId())) {
-                        Predicate p5 = cb.equal(root.get("decidedZone").as(DecidedZone.class), model.getDecidedZone());
-                        // p3 满足查询对象
-                        predicates.add(p5);
-                    }
-                    Predicate ps[] = new Predicate[predicates.size()];
-                    return cb.and(predicates.toArray(ps));
-
+                // subarea表添加条件n 1 Region表添加条件 1 定区编号查询 OID
+                // 单表连接自己
+                if (StringUtils.isNotBlank(model.getAddresskey())) {
+                    Predicate p1 = cb.like(root.get("addresskey").as(String.class), "%" + model
+                            .getAddresskey() + "%");
+                    // p1 满足查询对象
+                    predicates.add(p1);
                 }
-            };
+                // 主表Subarea n 连接从表 1 Region
+                // 多方连接一方
+                if (model.getRegion() != null) {
+                    // 连接 region表 regionJoin 操作region表
+                    Join<Subarea, Region> regionJoin = root.join(root.getModel()
+                            .getSingularAttribute("region", Region.class), JoinType.LEFT);
+                    // 多方 去连接一方 ....
+                    if (StringUtils.isNotBlank(model.getRegion().getProvince())) {
+                        Predicate p2 = cb.like(regionJoin.get("province").as(String.class), "%" +
+                                model.getRegion().getProvince() + "%");
+                        // p2 满足查询对象
+                        predicates.add(p2);
+                    }
+                    if (StringUtils.isNotBlank(model.getRegion().getCity())) {
+                        Predicate p3 = cb.like(regionJoin.get("city").as(String.class), "%" +
+                                model.getRegion().getCity() + "%");
+                        // p2 满足查询对象
+                        predicates.add(p3);
+                    }
+                    if (StringUtils.isNotBlank(model.getRegion().getDistrict())) {
+                        Predicate p4 = cb.like(regionJoin.get("district").as(String.class), "%" +
+                                model.getRegion().getDistrict() + "%");
+                        // p2 满足查询对象
+                        predicates.add(p4);
+                    }
+                }
+                // 定区 比较对象 比较OID
+                if (model.getDecidedZone() != null && StringUtils.isNotBlank(model.getDecidedZone
+                        ().getId())) {
+                    Predicate p5 = cb.equal(root.get("decidedZone").as(DecidedZone.class), model
+                            .getDecidedZone());
+                    // p3 满足查询对象
+                    predicates.add(p5);
+                }
+                Predicate ps[] = new Predicate[predicates.size()];
+                return cb.and(predicates.toArray(ps));
+
+            }
+        };
     }
 
     @Action(value = "subareaAction_download")
     public String download() {
         try {
-            List<Subarea> data = facadeService.getSubareaService().findAllBySpecification(getSpecification());
+            List<Subarea> data = facadeService.getSubareaService().findAllBySpecification
+                    (getSpecification());
             HSSFWorkbook workbook = new HSSFWorkbook();
             HSSFSheet sheet = workbook.createSheet();
             HSSFRow first = sheet.createRow(0);
@@ -137,7 +150,8 @@ public class SubareaAction extends BaseAction<Subarea> {
             String filename = "分区数据.xls";
             HttpServletResponse response = getResponse();
 
-            response.setHeader("Content-Disposition","attachment;filename=" + DownLoadUtils.getAttachmentFileName(filename,getRequest().getHeader("user-agent")));
+            response.setHeader("Content-Disposition", "attachment;filename=" + DownLoadUtils
+                    .getAttachmentFileName(filename, getRequest().getHeader("user-agent")));
             workbook.write(response.getOutputStream());
             return NONE;
         } catch (Exception e) {
@@ -145,7 +159,9 @@ public class SubareaAction extends BaseAction<Subarea> {
             throw new RuntimeException(e);
         }
     }
-    @Action(value = "subareaAction_noassociation", results = { @Result(name = "noassociation", type = "fastJson", params = { "includeProperties", "sid,addresskey,position" }) })
+
+    @Action(value = "subareaAction_noassociation", results = {@Result(name = "noassociation",
+            type = "fastJson", params = {"includeProperties", "sid,addresskey,position"})})
     public String noassociation() {
         // 添加 又是修改
         List<Subarea> subareas = facadeService.getSubareaService().noassociation();

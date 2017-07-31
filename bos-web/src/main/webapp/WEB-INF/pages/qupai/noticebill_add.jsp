@@ -31,13 +31,15 @@
             $("body").css({visibility: "visible"});
             load(0, province);//  页面加载立刻执行   传递value  0    ,目标对象  province
 
-            $("#").blur(function  () {
+            $("#telephone").blur(function () {
                 if (this.value == "") {
                     //alert("手机号必须书写");
                     return;
                 } else {
-                    $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"": this.value}, function (data) {
+                    $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"telephone": this.value}, function (data) {
                         // data  {customer}
+
+                        //alert("blur事件")
                         if (data == null) {
                             //  新客户 提示
                             $("#tel_sp").html("<font color='green'>新客户</font>");
@@ -123,8 +125,8 @@
                     <input type="hidden" id="nprovince" name="nprovince">
                     <input type="hidden" id="ncity" name="ncity">
                     <input type="hidden" id="ndistrict" name="ndistrict">
-                    <input type="text" class="easyui-validatebox" name=""
-                           required="true" id=""/>
+                    <input type="text" class="easyui-validatebox" name="telephone"
+                           required="true" id="telephone"/>
                     <span id="tel_sp"></span>
                 </td>
                 <td>客户编号:</td>
@@ -180,14 +182,14 @@
                 </td>
             </tr>
 
-            <tr>
-                <td>到达城市:</td>
-                <td><input type="text" class="easyui-validatebox" name="arrivecity"
-                           required="true"/></td>
-                <td>预约取件时间:</td>
-                <td><input type="text" class="easyui-datebox" name="pickdate"
-                           data-options="required:true, editable:false"/></td>
-            </tr>
+             <tr>
+                 <td>到达城市:</td>
+                 <td><input type="text" class="easyui-validatebox" name="arrivecity"
+                            required="true"/></td>
+                 <td>预约取件时间:</td>
+                 <td><input type="text" class="easyui-datebox" name="pickdate"
+                            data-options="required:true, editable:false"/></td>
+             </tr>
             <tr>
                 <td>备注:</td>
                 <td colspan="3"><textarea rows="5" cols="80" type="text" class="easyui-validatebox"

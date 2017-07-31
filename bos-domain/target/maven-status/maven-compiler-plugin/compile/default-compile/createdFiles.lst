@@ -1,0 +1,14 @@
+cn\itcast\bos\domain\user\User.class
+cn\itcast\bos\domain\courier\WorkBill.class
+cn\itcast\bos\domain\bc\Region.class
+cn\itcast\bos\domain\courier\NoticeBill.class
+cn\itcast\bos\domain\courier\WorkOrderManage.class
+cn\itcast\bos\domain\bc\Subarea.class
+cn\itcast\bos\domain\auth\Menu.class
+cn\itcast\bos\domain\bc\Staff.class
+cn\itcast\bos\domain\bc\DecidedZone.class
+cn\itcast\bos\domain\auth\Role.class
+cn\itcast\bos\domain\auth\Function.class
+cn\itcast\bos\domain\bc\Standard.class
+cn\itcast\crm\domain\Customer.class
+cn\itcast\bos\domain\city\City.class

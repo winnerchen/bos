@@ -43,7 +43,7 @@ public class NoticeBillAction extends BaseAction<NoticeBill> {
         String province = getParameter("nprovince");
         String city = getParameter("ncity");
         String district = getParameter("ndistrict");
-        model.setPickaddress(province + city + district + model.getPickaddress());// 业务通知单表里面插入
+        //model.setPickaddress(province + city + district + model.getPickaddress());// 业务通知单表里面插入
         // 2: 调用业务层完成业务通知单录入 以及自动分单的实现
         facadeService.getNoticeBillService().save(model, province, city, district);
         // 3: 业务层 3.1 业务通知单录入 3.2 自动分单 (地址库完全匹配/管理分区匹配法) 3.3 客户新客户 crm(插入)录入 3.4 老客户 address更新

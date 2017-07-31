@@ -11,6 +11,37 @@
   <schema-selection  match-table="qp_.*"  match-catalog="mavenbos"/>
   <schema-selection  match-table="city"  match-catalog="mavenbos"/>
 
+  <!-- 权限表生成 -->
+  <schema-selection  match-table="auth_.*"  match-catalog="mavenbos"/>
+  <schema-selection  match-table="role_function"  match-catalog="mavenbos"/>
+  <schema-selection  match-table="role_menu"  match-catalog="mavenbos"/>
+  <schema-selection  match-table="user_role"  match-catalog="mavenbos"/>
+
+  <!-- 生成权限对应实体类 -->
+  <table name="auth_function" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Function">
+    <!-- assigend默认主键策略  修改主键策略 -->
+    <primary-key>
+      <generator class="uuid"></generator>
+    </primary-key>
+  </table>
+  <table name="auth_role" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Role">
+    <!-- assigend默认主键策略  修改主键策略 -->
+    <primary-key>
+      <generator class="uuid"></generator>
+    </primary-key>
+  </table>
+  <table name="auth_menu" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Menu">
+    <!-- assigend默认主键策略  修改主键策略 -->
+    <primary-key>
+      <generator class="uuid"></generator>
+    </primary-key>
+  </table>
+  <table name="t_user" catalog="mavenbos"
+         class="cn.itcast.bos.domain.user.User">
+  </table>
+
+
+
   <!-- 定义实体类生成规范 -->
   <table name="t_user" catalog="mavenbos" class="cn.itcast.bos.domain.user.User" />
   <table name="t_standard" catalog="mavenbos" class="cn.itcast.bos.domain.bc.Standard"/>

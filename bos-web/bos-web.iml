@@ -27,6 +27,7 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/../bos-shiro/src/main/resources/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -41,23 +42,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="bos-shiro" />
     <orderEntry type="module" module-name="bos-service" />
-    <orderEntry type="module" module-name="bos-mqproducer" />
-    <orderEntry type="module" module-name="bos-redis" />
-    <orderEntry type="module" module-name="bos-dao" />
+    <orderEntry type="library" name="Maven: cn.itcast.mavenbos:bos-mqproducer:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="bos-domain" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-core:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.0" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-extension-providers:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3.7" level="project" />
-    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-json-plugin:2.3.16.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-core:2.3.16.1" level="project" />
@@ -95,18 +83,39 @@
     <orderEntry type="library" name="Maven: freemarker:freemarker:2.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:jtidy:r8-20060801" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.2.8.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.activemq:activemq-all:5.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xbean:xbean-spring:3.7" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="module" module-name="bos-redis" />
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:1.7.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:1.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-oxm:4.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.2.8.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.8.RELEASE" level="project" />
+    <orderEntry type="module" module-name="bos-dao" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-core:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-rs-extension-providers:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3.7" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-all:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-guice:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-core:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:r09" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:3.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-multibindings:3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:4.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.2.8.RELEASE" level="project" />
     <orderEntry type="module" module-name="bos-utils" />
     <orderEntry type="library" name="Maven: cn.itcast.dayu.heima04:heima04dayu:2.2.2" level="project" />
@@ -133,5 +142,6 @@
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" level="project" />
     <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.2.8.RELEASE" level="project" />
   </component>
 </module>

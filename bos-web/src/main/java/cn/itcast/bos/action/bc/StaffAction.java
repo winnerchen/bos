@@ -31,28 +31,35 @@ import java.util.List;
 public class StaffAction extends BaseAction<Staff> {
     @Autowired
     private FacadeService facadeService;
-    @Action(value = "staffAction_validTelephone", results = { @Result(name = "validTelephone", type="json") })
+
+    @Action(value = "staffAction_validTelephone", results = {@Result(name = "validTelephone",
+            type = "json")})
     public String validTelephone() {
         Staff staff = facadeService.getStaffService().validTelephone(model.getTelephone());
-        boolean flag=false;
+        boolean flag = false;
         if (staff == null) {
             flag = true;
         }
         push(flag);
         return "validTelephone";
     }
-    @Action(value = "staffAction_save", results = { @Result(name = "save", location = "/WEB-INF/pages/base/staff.jsp") })
+
+    @Action(value = "staffAction_save", results = {@Result(name = "save", location =
+            "/WEB-INF/pages/base/staff.jsp")})
     public String save() {
         facadeService.getStaffService().save(model);
         return "save";
     }
-    @Action(value = "staffAction_ajaxListInUse", results = { @Result(name = "ajaxListInUse", type = "json") })
+
+    @Action(value = "staffAction_ajaxListInUse", results = {@Result(name = "ajaxListInUse", type
+            = "json")})
     public String ajaxListInUse() {
         List<Staff> staffs = facadeService.getStaffService().ajaxListInUse();
         push(staffs);
         return "ajaxListInUse";
     }
-    @Action(value = "staffAction_delBatch", results = { @Result(name = "delBatch", type = "json") })
+
+    @Action(value = "staffAction_delBatch", results = {@Result(name = "delBatch", type = "json")})
     public String delBatch() {
         try {
             String ids = getParameter("ids");
@@ -69,7 +76,9 @@ public class StaffAction extends BaseAction<Staff> {
         }
         return "delBatch";
     }
-    @Action(value = "staffAction_restoreBatch", results = { @Result(name = "restoreBatch", type = "json") })
+
+    @Action(value = "staffAction_restoreBatch", results = {@Result(name = "restoreBatch", type =
+            "json")})
     public String restoreBatch() {
         try {
             String ids = getParameter("ids");
@@ -86,32 +95,38 @@ public class StaffAction extends BaseAction<Staff> {
         }
         return "restoreBatch";
     }
+
     @Action(value = "staffAction_pageQuery")
     public String pageQuery() {
 
         Specification<Staff> specification = new Specification<Staff>() {
             @Override
-            public Predicate toPredicate(Root<Staff> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+            public Predicate toPredicate(Root<Staff> root, CriteriaQuery<?> query,
+                                         CriteriaBuilder cb) {
                 System.out.println("---------进入匿名内部类1111------");
                 ArrayList<Predicate> predicates = new ArrayList<>();
                 if (StringUtils.isNotBlank(model.getName())) {
-                    Predicate p1 = cb.like(root.get("name").as(String.class), "%" + model.getName() + "%");
+                    Predicate p1 = cb.like(root.get("name").as(String.class), "%" + model.getName
+                            () + "%");
                     predicates.add(p1);
                     //System.out.println("名字带条件");
                 }
                 if (StringUtils.isNotBlank(model.getTelephone())) {
-                    Predicate p2 = cb.equal(root.get("telephone").as(String.class), model.getTelephone());
+                    Predicate p2 = cb.equal(root.get("telephone").as(String.class), model
+                            .getTelephone());
                     predicates.add(p2);
                 }
                 if (StringUtils.isNotBlank(model.getStation())) {
-                    Predicate p3 = cb.equal(root.get("station").as(String.class),  model.getStation() );
+                    Predicate p3 = cb.equal(root.get("station").as(String.class), model
+                            .getStation());
                     predicates.add(p3);
                 }
                 Predicate[] ps = new Predicate[predicates.size()];
                 return cb.and(predicates.toArray(ps));
             }
         };
-        Page<Staff> pageData = facadeService.getStaffService().pageQuery(getPageRequest(), specification);
+        Page<Staff> pageData = facadeService.getStaffService().pageQuery(getPageRequest(),
+                specification);
         setPageData(pageData);
         return "pageQuery";
     }
