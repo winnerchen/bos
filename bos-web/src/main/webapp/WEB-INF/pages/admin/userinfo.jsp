@@ -32,6 +32,12 @@
 		$('#save').click(function(){
 			$('#form').submit();
 		});
+
+		$.post("${pageContext.request.contextPath}/roleAction_ajaxList",function (data) {
+			$(data).each(function () {
+				$("#grantRole").append("<input type='checkbox' name='grantRoles' value='"+this.id+"'>"+this.name+"</input>&nbsp;&nbsp;")
+			})
+		});
 	});
 </script>	
 </head>
@@ -73,6 +79,12 @@
 						<input type="text" name="telephone" id="telephone" class="easyui-validatebox" required="true" />
 					</td>
 				</tr>
+			   <tr>
+				   <td>角色</td>
+				   <td id="grantRole">
+					   <!-- functions表数据 -->
+				   </td>
+			   </tr>
 	           	<tr><td>备注:</td><td colspan="3"><textarea style="width:80%"></textarea></td></tr>
            </table>
        </form>

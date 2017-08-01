@@ -25,13 +25,14 @@
                 /index.jsp** = authc
                 /validatecode.jsp** = anon
                 /userAction_login** = anon
+                /page_base_staff**=roles[base_admin]
                 /user/userAction_validCheckCode** = anon
-                /** = anon
+                /** = authc
 
             </value>
         </property>
     </bean>
-    <bean id="bosRealm" class="cn.itcast.bos.realm.BosRealm"/>
+    <bean id="bosRealm" class="cn.chen.bos.realm.BosRealm"/>
 
     <!-- 安全管理器 -->
     <bean id="securityManager"

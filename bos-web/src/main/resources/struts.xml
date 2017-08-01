@@ -15,10 +15,10 @@
 
 	<package name="mavenbos" extends="json-default">
 		<result-types>
-			<result-type name="fastJson" class="cn.itcast.bos.action.result.FastJsonResult"></result-type>
+			<result-type name="fastJson" class="cn.chen.bos.action.result.FastJsonResult"></result-type>
 		</result-types>
 		<interceptors>
-			<interceptor name="mylogin" class="cn.itcast.bos.interceptor.MyLoginInterceptor"></interceptor>
+			<interceptor name="mylogin" class="cn.chen.bos.interceptor.MyLoginInterceptor"></interceptor>
 			<interceptor-stack name="mystack">
 				<interceptor-ref name="mylogin">
 					<!-- login 方法执行 mylogin拦截器无效 不执行 -->

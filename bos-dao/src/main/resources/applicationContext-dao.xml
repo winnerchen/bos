@@ -16,6 +16,6 @@
 	http://www.springframework.org/schema/data/jpa
     http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
     
-    <jpa:repositories base-package="cn.itcast.bos.dao"></jpa:repositories>
+    <jpa:repositories base-package="cn.chen.bos.dao"></jpa:repositories>
  </beans>
 

@@ -95,15 +95,17 @@
 		};
 
 		// 基本功能菜单加载
-		$.post("${pageContext.request.contextPath}/json/menu.json",function(data){
+		$.post("${pageContext.request.contextPath}/menuAction_findMenuByUserId",function(data){
 			$.fn.zTree.init($("#treeMenu"), setting, data);
 		},"json");
 
 
 		// 系统管理菜单加载
+		<shiro:hasRole name="admin">
 		$.post("${pageContext.request.contextPath}/json/admin.json",function(data){
 			$.fn.zTree.init($("#adminMenu"), setting, data);
 		},"json");
+		</shiro:hasRole>
 
 		// 页面加载后 右下角 弹出窗口
 		/**************/
@@ -228,9 +230,11 @@
 			<div title="基本功能" data-options="iconCls:'icon-mini-add'" style="overflow:auto">
 				<ul id="treeMenu" class="ztree"></ul>
 			</div>
+			<shiro:hasRole name="admin">
 			<div title="系统管理" data-options="iconCls:'icon-mini-add'" style="overflow:auto">
 				<ul id="adminMenu" class="ztree"></ul>
 			</div>
+			</shiro:hasRole>
 		</div>
 	</div>
 	<div data-options="region:'center'">

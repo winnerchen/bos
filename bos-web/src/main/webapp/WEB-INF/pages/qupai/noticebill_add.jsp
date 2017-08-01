@@ -34,7 +34,7 @@
             $("#telephone").blur(function () {
                 if (this.value == "") {
                     //alert("手机号必须书写");
-                    return;
+
                 } else {
                     $.post("${pageContext.request.contextPath}/noticeBillAction_findCustomerByTelephone", {"telephone": this.value}, function (data) {
                         // data  {customer}
@@ -66,7 +66,7 @@
                     //  省市区 获取显示值  提交后台 orderServlet?method=save
                     var data = document.getElementById("province").selectedOptions[0].text + document.getElementById("city").selectedOptions[0].text + document.getElementById("district").selectedOptions[0].text;
                     var nprovincetext=document.getElementById("province").selectedOptions[0].text;
-                    var ncitytext = document.getElementById("city").selectedOptions[0].text
+                    var ncitytext = document.getElementById("city").selectedOptions[0].text;
                     var ndistricttext = document.getElementById("district").selectedOptions[0].text;
 
                     //alert(data);

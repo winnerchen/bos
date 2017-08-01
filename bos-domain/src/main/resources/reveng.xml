@@ -18,53 +18,53 @@
   <schema-selection  match-table="user_role"  match-catalog="mavenbos"/>
 
   <!-- 生成权限对应实体类 -->
-  <table name="auth_function" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Function">
+  <table name="auth_function" catalog="mavenbos" class="cn.chen.bos.domain.auth.Function">
     <!-- assigend默认主键策略  修改主键策略 -->
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
-  <table name="auth_role" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Role">
+  <table name="auth_role" catalog="mavenbos" class="cn.chen.bos.domain.auth.Role">
     <!-- assigend默认主键策略  修改主键策略 -->
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
-  <table name="auth_menu" catalog="mavenbos" class="cn.itcast.bos.domain.auth.Menu">
+  <table name="auth_menu" catalog="mavenbos" class="cn.chen.bos.domain.auth.Menu">
     <!-- assigend默认主键策略  修改主键策略 -->
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
   <table name="t_user" catalog="mavenbos"
-         class="cn.itcast.bos.domain.user.User">
+         class="cn.chen.bos.domain.user.User">
   </table>
 
 
 
   <!-- 定义实体类生成规范 -->
-  <table name="t_user" catalog="mavenbos" class="cn.itcast.bos.domain.user.User" />
-  <table name="t_standard" catalog="mavenbos" class="cn.itcast.bos.domain.bc.Standard"/>
+  <table name="t_user" catalog="mavenbos" class="cn.chen.bos.domain.user.User" />
+  <table name="t_standard" catalog="mavenbos" class="cn.chen.bos.domain.bc.Standard"/>
 
   <!-- . 代表任意字符 * 代表0或者多个字符 -->
   <!-- 实体类生成规则定义 -->
   <!-- 基础设置表生成实体类规范定义 -->
-  <table name="bc_staff" catalog="mavenbos" class="cn.itcast.bos.domain.bc.Staff">
+  <table name="bc_staff" catalog="mavenbos" class="cn.chen.bos.domain.bc.Staff">
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
-  <table name="bc_region" catalog="mavenbos" class="cn.itcast.bos.domain.bc.Region">
+  <table name="bc_region" catalog="mavenbos" class="cn.chen.bos.domain.bc.Region">
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
-  <table name="bc_subarea" catalog="mavenbos" class="cn.itcast.bos.domain.bc.Subarea">
+  <table name="bc_subarea" catalog="mavenbos" class="cn.chen.bos.domain.bc.Subarea">
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
   </table>
-  <table name="bc_decidedzone" catalog="mavenbos" class="cn.itcast.bos.domain.bc.DecidedZone">
+  <table name="bc_decidedzone" catalog="mavenbos" class="cn.chen.bos.domain.bc.DecidedZone">
     <primary-key>
       <generator class="uuid"></generator>
     </primary-key>
@@ -94,7 +94,7 @@
     </primary-key>
   </table>
   <table name="city" catalog="_mavenbos"
-         class="cn.itcast.bos.domain.city.City">
+         class="cn.chen.bos.domain.city.City">
   </table>
 
 
